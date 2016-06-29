@@ -1,0 +1,19 @@
+application: tutorial
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /(.*\.(gif|jpg|png|js|css|eot|svg|ttf|woff|otf))
+  static_files: \1
+  upload: (.*\.(gif|jpg|png|js|css|eot|svg|ttf|woff|otf))
+
+- url: /.*
+  script: main.app
+
+libraries:
+- name: jinja2
+  version: "2.6"
+- name: webapp2
+  version: latest

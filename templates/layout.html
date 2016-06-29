@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> -->
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div id="colOne" class="col-sm-8">
+        <textarea id="user-page" rows="25" pre>{% block userpage %}
+{% endblock %}
+</textarea><br>
+        <button id="page-button">Make a page!</button>
+</div>
+  <div id="colTwo" class="col-sm-8" hidden>
+    <button id="edit-button">Edit Page</button>
+        <iframe id="iframe"></iframe>
+  </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+    <script src="public/js/main.js"></script>
+</body>
+
+</html>

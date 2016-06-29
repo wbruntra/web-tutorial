@@ -1,0 +1,29 @@
+textarea {
+}
+
+.container {
+  margin-top: 25px;
+}
+
+textarea {
+  width:90%;
+}
+
+#colTwo {
+}
+
+iframe {
+  position:absolute;
+  height:90%;
+  margin-top:30px;
+  left: 0;
+  width:95%;
+  border-top: 2px solid black;
+}
+
+/*.col-one, .col-two {
+  width:45%
+}
+.col-two {
+  margin-left: 50%;
+}*/
